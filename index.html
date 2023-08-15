@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoMagico!</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="contHeader">
+        <h1 class="titulo">EL JUEGO DEL AHORCADO XD</h1>
+    </header>
+    <main>
+        <section class="contPrincipal">
+            <div class="contImg">
+            <img src="./public/img/ahorcado.jpeg" alt="juego-del-ahorcado">
+            </div>
+            <div class="contDatos">
+            <div class="entradaDatos">
+            <select id="theme-selector">
+                <option value="colores">Colores</option>
+                <option value="frutas">Frutas</option>
+                <option value="animales">Animales</option>
+                <option value="ciudad">Cosas de una ciudad</option>
+                <option value="paises">Paises</option>
+            </select>
+            <input type="text" id="letter-input" placeholder="Ingresa una letra">
+            <button id="guess-button">Adivinar</button>
+            </div>
+            <div class="contJs">
+                <p id="theme-info" ></p>
+                <p id="hidden-word"></p>
+                <p id="guessed-letters"></p>
+                <p id="attempts"></p>
+                <p id="result"></p>
+            </div>
+                <div id="game-info" class="js"></div>
+            </div>
+
+            </section>
+    </main>
+    
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

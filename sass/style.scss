@@ -1,0 +1,62 @@
+
+body {
+    background-color: antiquewhite;
+}
+
+.contHeader {
+    text-align: center;
+    background-color: black;
+    margin: 0rem 13rem;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(6, 235, 159);
+    font-size: 48px;
+    padding: 2rem 0rem;
+}
+
+.contPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contImg {
+    border: 2px solid;
+    height: 400px;
+}
+
+img {
+    height:400px;
+    width: 500px;
+}
+
+.contDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 400px;
+    width: 500px;
+    background-color: black;
+}
+
+.entradaDatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 75%;
+    padding: 2rem;
+}
+
+.contJs {
+    color: white;
+    height: 100%;
+}
+
+.js {
+    display: none;
+}
