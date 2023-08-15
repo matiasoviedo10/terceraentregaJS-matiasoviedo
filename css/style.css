@@ -9,10 +9,10 @@ body {
 }
 
 .titulo {
+  padding: 2rem 0rem;
   text-align: center;
   color: rgb(6, 235, 159);
   font-size: 48px;
-  padding: 2rem 0rem;
 }
 
 .contPrincipal {
@@ -23,11 +23,11 @@ body {
 
 .contImg {
   border: 2px solid;
-  height: 400px;
+  height: 650px;
 }
 
 img {
-  height: 400px;
+  height: 100%;
   width: 500px;
 }
 
@@ -37,7 +37,7 @@ img {
   justify-content: center;
   align-items: center;
   border: 2px solid;
-  height: 400px;
+  height: 650px;
   width: 500px;
   background-color: black;
 }
